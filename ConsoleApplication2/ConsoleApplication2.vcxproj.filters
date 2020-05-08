@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Player">
+      <UniqueIdentifier>{ba85d47d-2021-4691-b0c8-d9771389f7d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Textures">
+      <UniqueIdentifier>{90e9ffb2-8a21-4cef-9893-b84955e1ca2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Textures\player">
+      <UniqueIdentifier>{7d52b589-731c-4776-8286-294c6f27bb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Animation">
+      <UniqueIdentifier>{361a672c-2dd1-479c-abed-9b1e777b6fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Animation\Player">
+      <UniqueIdentifier>{de297660-ad4c-4e07-8b19-88ae16b42a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Collision">
+      <UniqueIdentifier>{8c9eb091-5bf2-4491-82bc-10732a6c86c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Platform">
+      <UniqueIdentifier>{db06c536-dd87-48f9-adab-225382be74cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Arquivos de Origem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Player\PlayerAnimation.cpp">
+      <Filter>Arquivos de Origem\Animation\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Platform.cpp">
+      <Filter>Arquivos de Origem\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collider.cpp">
+      <Filter>Arquivos de Origem\Collision</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Arquivos de Origem\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Player\PlayerAnimation.h">
+      <Filter>Arquivos de Origem\Animation\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\Platform.h">
+      <Filter>Arquivos de Origem\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collider.h">
+      <Filter>Arquivos de Origem\Collision</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\player\static.png">
+      <Filter>Arquivos de Origem\Textures\player</Filter>
+    </Image>
+    <Image Include="Textures\player\parado.png">
+      <Filter>Arquivos de Origem\Textures\player</Filter>
+    </Image>
+    <Image Include="Textures\player\parado2.png">
+      <Filter>Arquivos de Origem\Textures\player</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

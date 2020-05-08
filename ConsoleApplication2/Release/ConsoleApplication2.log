@@ -1,0 +1,21 @@
+﻿  PlayerAnimation.cpp
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\animation\player\playeranimation.cpp(13): warning C4244: '=': conversão de 'float' para 'T', possível perda de dados
+          with
+          [
+              T=int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\animation\player\playeranimation.cpp(14): warning C4244: '=': conversão de 'float' para 'T', possível perda de dados
+          with
+          [
+              T=int
+          ]
+  main.cpp
+  Player.cpp
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(5): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(6): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(7): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(8): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
+  Gerando código
+  All 79 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finalizada a geração de código
+  ConsoleApplication2.vcxproj -> C:\Users\nucle\source\repos\Cristian_Hugo\Release\ConsoleApplication2.exe

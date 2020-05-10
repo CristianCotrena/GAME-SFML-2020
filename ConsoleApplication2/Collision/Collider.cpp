@@ -1,5 +1,6 @@
 #include "Collider.h"
 
+#include <iostream>
 #include <SFML/Graphics.hpp>
 
 Collider::Collider(sf::RectangleShape& body) : body(body) {
@@ -16,13 +17,46 @@ bool Collider::CheckCollision(Collider& other, float push) {
 	float deltaX = otherPosition.x - thisPosition.x;
 	float deltaY = otherPosition.y - thisPosition.y;
 
-	float intersectX = abs(deltaX) - (otherHalfSize.x + thisHalfSize.x);
-	float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);
+	//float intersectX = abs(deltaX) - (otherHalfSize.x + thisHalfSize.x);
+	//float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);
 
-	if (intersectX < 0.0f && intersectY < 0.0f) {
-		push = std::min(std::max(push, 0.0f), 0.0f);
+	float distance = sqrt((pow(deltaX, 2) + pow(deltaY, 2)));
+	
+	if (distance < (thisHalfSize.x + otherHalfSize.x) / 2) {
+		std::cout << " !! COLIDIU !! " << std::endl;
+	}
+	else {
+		std::cout << "" << std::endl;
+	}
 
-		if (abs(intersectX) > abs(intersectY)) {
+
+	//
+	/*if (intersectX < 0.0f && intersectY < 0.0f) {
+		
+		std::cout
+			<< " A POSITION_X: " << thisPosition.x
+			<< " O POSITION_X: " << otherPosition.x
+			<< std::endl;
+
+		std::cout
+			<< " A POSITION_Y: " << thisPosition.y
+			<< " O POSITION_Y: " << otherPosition.y
+			<< std::endl;
+
+		std::cout
+			<< " A SIZE: " << thisHalfSize.x
+			<< " O SIZE: " << otherHalfSize.x
+			<< std::endl;
+
+		std::cout
+			<< "INTERSECT_X: " << intersectX
+			<< "  INTERSECT_Y: " << intersectY
+			<< std::endl;
+
+
+		push = std::min(std::max(push, 0.0f), 1.0f);
+
+		if (intersectX > intersectY) { //ABS
 			if (deltaX > 0.0f) {
 				Move(intersectX * (1.0f - push), 0.0f);
 				other.Move(-intersectX * push, 0.0f);
@@ -43,7 +77,7 @@ bool Collider::CheckCollision(Collider& other, float push) {
 		}
 
 		return true;
-	}
+	}*/
 
 	return false;
 }

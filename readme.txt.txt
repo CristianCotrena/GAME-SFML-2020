@@ -1,0 +1,10 @@
+NOMES:
+	CRISTIAN COTRENA
+	HUGO NETO
+
+GITHUB:
+	https://github.com/CristianCotrena/GAME-SFML-2020
+
+EXECUTAVEL JUNTO AO ANEXO..
+
+

@@ -1,2 +1,36 @@
-﻿  main.cpp
+﻿  Victory.cpp
+  main.cpp
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\menu\menu.h(4): warning C4005: 'MENU_SIZE': redefinição de macro
+  c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\statusplayer.h(4): note: consulte a definição anterior de 'MENU_SIZE'
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(48): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(49): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(50): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(51): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(52): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(53): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+  Gerando Código...
   ConsoleApplication2.vcxproj -> C:\Users\nucle\source\repos\Cristian_Hugo\Debug\ConsoleApplication2.exe

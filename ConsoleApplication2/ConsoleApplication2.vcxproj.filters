@@ -34,6 +34,27 @@
     <Filter Include="Arquivos de Origem\Platform">
       <UniqueIdentifier>{db06c536-dd87-48f9-adab-225382be74cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\Menu">
+      <UniqueIdentifier>{b96d1b73-2e2b-4841-9580-ab26174b7ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Fases">
+      <UniqueIdentifier>{03964398-14d9-4a51-ace0-3738cf263bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Death">
+      <UniqueIdentifier>{b1a13aa1-16c0-44e8-8503-da72f24c2409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Victory">
+      <UniqueIdentifier>{27b382c8-021e-44a9-95a9-b0816e77820d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Shot">
+      <UniqueIdentifier>{11b8b157-2cfd-4bd2-b8fb-79d0625c85e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Audio">
+      <UniqueIdentifier>{ddbf9f9b-259d-4067-921b-0576902de5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Options">
+      <UniqueIdentifier>{74d9476c-3204-4f40-9317-144a34e49da5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -51,6 +72,39 @@
     <ClCompile Include="Collision\Collider.cpp">
       <Filter>Arquivos de Origem\Collision</Filter>
     </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Fases\Fase.cpp">
+      <Filter>Arquivos de Origem\Fases</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\StatusPlayer.cpp">
+      <Filter>Arquivos de Origem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Death\Death.cpp">
+      <Filter>Arquivos de Origem\Death</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\PlatformArray.cpp">
+      <Filter>Arquivos de Origem\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Victory\Victory.cpp">
+      <Filter>Arquivos de Origem\Victory</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\Shot.cpp">
+      <Filter>Arquivos de Origem\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot\ShotArray.cpp">
+      <Filter>Arquivos de Origem\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\Audio.cpp">
+      <Filter>Arquivos de Origem\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Placar.cpp">
+      <Filter>Arquivos de Origem\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Options\Options.cpp">
+      <Filter>Arquivos de Origem\Options</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player\Player.h">
@@ -65,6 +119,39 @@
     <ClInclude Include="Collision\Collider.h">
       <Filter>Arquivos de Origem\Collision</Filter>
     </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Arquivos de Origem\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Fases\Fase.h">
+      <Filter>Arquivos de Origem\Fases</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\StatusPlayer.h">
+      <Filter>Arquivos de Origem\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Death\Death.h">
+      <Filter>Arquivos de Origem\Death</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\PlatformArray.h">
+      <Filter>Arquivos de Origem\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Victory\Victory.h">
+      <Filter>Arquivos de Origem\Victory</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\Shot.h">
+      <Filter>Arquivos de Origem\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot\ShotArray.h">
+      <Filter>Arquivos de Origem\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\Audio.h">
+      <Filter>Arquivos de Origem\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Placar.h">
+      <Filter>Arquivos de Origem\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Options\Options.h">
+      <Filter>Arquivos de Origem\Options</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\player\static.png">
@@ -76,5 +163,10 @@
     <Image Include="Textures\player\parado2.png">
       <Filter>Arquivos de Origem\Textures\player</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font.ttf">
+      <Filter>Arquivos de Origem</Filter>
+    </Font>
   </ItemGroup>
 </Project>

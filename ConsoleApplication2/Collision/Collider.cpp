@@ -1,14 +1,9 @@
 #include "Collider.h"
-
-#include <iostream>
 #include <SFML/Graphics.hpp>
 
-Collider::Collider(sf::RectangleShape& body) : body(body) {
-	
-}
+Collider::Collider(sf::RectangleShape& body) : body(body) {}
 
 bool Collider::CheckCollision(Collider& other, float push) {
-
 	sf::Vector2f otherPosition = other.GetPosition();
 	sf::Vector2f otherHalfSize = other.GetHalfSize();
 	sf::Vector2f thisPosition = GetPosition();
@@ -16,69 +11,10 @@ bool Collider::CheckCollision(Collider& other, float push) {
 
 	float deltaX = otherPosition.x - thisPosition.x;
 	float deltaY = otherPosition.y - thisPosition.y;
-
-	//float intersectX = abs(deltaX) - (otherHalfSize.x + thisHalfSize.x);
-	//float intersectY = abs(deltaY) - (otherHalfSize.y + thisHalfSize.y);
-
 	float distance = sqrt((pow(deltaX, 2) + pow(deltaY, 2)));
 	
-	if (distance < (thisHalfSize.x + otherHalfSize.x) / 2) {
-		std::cout << " !! COLIDIU !! " << std::endl;
-	}
-	else {
-		std::cout << "" << std::endl;
-	}
-
-
-	//
-	/*if (intersectX < 0.0f && intersectY < 0.0f) {
-		
-		std::cout
-			<< " A POSITION_X: " << thisPosition.x
-			<< " O POSITION_X: " << otherPosition.x
-			<< std::endl;
-
-		std::cout
-			<< " A POSITION_Y: " << thisPosition.y
-			<< " O POSITION_Y: " << otherPosition.y
-			<< std::endl;
-
-		std::cout
-			<< " A SIZE: " << thisHalfSize.x
-			<< " O SIZE: " << otherHalfSize.x
-			<< std::endl;
-
-		std::cout
-			<< "INTERSECT_X: " << intersectX
-			<< "  INTERSECT_Y: " << intersectY
-			<< std::endl;
-
-
-		push = std::min(std::max(push, 0.0f), 1.0f);
-
-		if (intersectX > intersectY) { //ABS
-			if (deltaX > 0.0f) {
-				Move(intersectX * (1.0f - push), 0.0f);
-				other.Move(-intersectX * push, 0.0f);
-			}
-			else {
-				Move(-intersectX * (1.0f - push), 0.0f);
-				other.Move(intersectX * push, 0.0f);
-			}
-		} else {
-			if (deltaY > 0.0f) {
-				Move(0.0f, intersectY * (1.0f - push));
-				other.Move(0.0f, -intersectY * push);
-			}
-			else {
-				Move(0.0f, -intersectY * (1.0f - push));
-				other.Move(0.0f, intersectY * push);
-			}
-		}
-
+	if (distance < (thisHalfSize.x + otherHalfSize.x) / 2)
 		return true;
-	}*/
-
 	return false;
 }
 

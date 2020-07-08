@@ -158,21 +158,46 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animation\Player\PlayerAnimation.cpp" />
+    <ClCompile Include="Audio\Audio.cpp" />
     <ClCompile Include="Collision\Collider.cpp" />
+    <ClCompile Include="Death\Death.cpp" />
+    <ClCompile Include="Fases\Fase.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu\Menu.cpp" />
+    <ClCompile Include="Options\Options.cpp" />
     <ClCompile Include="Platform\Platform.cpp" />
+    <ClCompile Include="Platform\PlatformArray.cpp" />
+    <ClCompile Include="Player\Placar.cpp" />
     <ClCompile Include="Player\Player.cpp" />
+    <ClCompile Include="Player\StatusPlayer.cpp" />
+    <ClCompile Include="Shot\Shot.cpp" />
+    <ClCompile Include="Shot\ShotArray.cpp" />
+    <ClCompile Include="Victory\Victory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation\Player\PlayerAnimation.h" />
+    <ClInclude Include="Audio\Audio.h" />
     <ClInclude Include="Collision\Collider.h" />
+    <ClInclude Include="Death\Death.h" />
+    <ClInclude Include="Fases\Fase.h" />
+    <ClInclude Include="Menu\Menu.h" />
+    <ClInclude Include="Options\Options.h" />
     <ClInclude Include="Platform\Platform.h" />
+    <ClInclude Include="Platform\PlatformArray.h" />
+    <ClInclude Include="Player\Placar.h" />
     <ClInclude Include="Player\Player.h" />
+    <ClInclude Include="Player\StatusPlayer.h" />
+    <ClInclude Include="Shot\Shot.h" />
+    <ClInclude Include="Shot\ShotArray.h" />
+    <ClInclude Include="Victory\Victory.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Textures\player\parado.png" />
     <Image Include="Textures\player\parado2.png" />
     <Image Include="Textures\player\static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font.ttf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

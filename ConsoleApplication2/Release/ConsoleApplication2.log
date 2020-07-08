@@ -1,21 +1,62 @@
 ﻿  PlayerAnimation.cpp
-c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\animation\player\playeranimation.cpp(13): warning C4244: '=': conversão de 'float' para 'T', possível perda de dados
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\animation\player\playeranimation.cpp(27): warning C4244: '=': conversão de 'float' para 'T', possível perda de dados
           with
           [
               T=int
           ]
-c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\animation\player\playeranimation.cpp(14): warning C4244: '=': conversão de 'float' para 'T', possível perda de dados
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\animation\player\playeranimation.cpp(28): warning C4244: '=': conversão de 'float' para 'T', possível perda de dados
           with
           [
               T=int
           ]
+  Audio.cpp
+  Collider.cpp
+  Death.cpp
+  Fase.cpp
   main.cpp
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\menu\menu.h(4): warning C4005: 'MENU_SIZE': redefinição de macro
+  c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\statusplayer.h(4): note: consulte a definição anterior de 'MENU_SIZE'
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(47): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(48): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(49): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(50): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\main.cpp(51): warning C4244: 'argumento': conversão de 'T' para 'float', possível perda de dados
+          with
+          [
+              T=unsigned int
+          ]
+  Menu.cpp
+  Platform.cpp
+  PlatformArray.cpp
+  Placar.cpp
   Player.cpp
-c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(5): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
 c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(6): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
 c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(7): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
 c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(8): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
+c:\users\nucle\source\repos\cristian_hugo\consoleapplication2\player\player.cpp(9): warning C4244: '=': conversão de 'float' para 'unsigned int', possível perda de dados
+  StatusPlayer.cpp
+  Shot.cpp
+  ShotArray.cpp
+  Victory.cpp
   Gerando código
-  All 79 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  163 of 172 functions (94.8%) were compiled, the rest were copied from previous compilation.
+    95 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finalizada a geração de código
   ConsoleApplication2.vcxproj -> C:\Users\nucle\source\repos\Cristian_Hugo\Release\ConsoleApplication2.exe

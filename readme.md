@@ -4,7 +4,7 @@ Game desenvlovido na disciplina de Entreterimento Digital do curso de Ciência d
 
 #### IDE
     - Visual Studio Community
-    
-#### Requisites
+
+#### Requires
     - SFML 2.4.0 
     - C++
